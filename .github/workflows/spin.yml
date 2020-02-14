@@ -1,0 +1,13 @@
+name: spin
+
+on: [push]
+
+jobs:
+  install:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: "Install local formula with Homebrew"
+      run: brew install --build-from-source Formula/spin.rb
+    - name: "Run spin"
+      run: spin --version
