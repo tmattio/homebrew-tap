@@ -13,6 +13,7 @@ class Spin < Formula
   end
 
   def install
+    mv "main.exe", "spin"
     bin.install 'spin'
   end
 end
