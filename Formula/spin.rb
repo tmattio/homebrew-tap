@@ -4,7 +4,7 @@ class Spin < Formula
   homepage 'https://github.com/tmattio/spin'
   url "https://github.com/tmattio/spin/releases/download/#{VERSION}/spin-darwin-x64.zip"
   version VERSION
-  sha256 'e5f4db3cbb6bdedf5e52994024b5b8cfccdec8548939571d265fb36cb8082410'
+  sha256 'ce9413d4982593b4feb50e6cc40ed317450d3c971d3249eeea16c7e8b4b29e61'
 
   bottle :unneeded
 
