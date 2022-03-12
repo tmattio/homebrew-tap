@@ -6,7 +6,6 @@ class Spin < Formula
   version VERSION
   sha256 'ce9413d4982593b4feb50e6cc40ed317450d3c971d3249eeea16c7e8b4b29e61'
 
-  bottle :unneeded
 
   test do
     system "#{bin}/spin", '--version'
